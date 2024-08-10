@@ -1,0 +1,169 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(235, 180, 223);
+    background: linear-gradient(#f7f4f6,#b573a8);
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 4em;
+    height: 6em;
+    color: #0d0d0d;
+}
+.logo {
+    font-size: 2em;
+    font-weight: 800;
+}
+ul {
+margin-right: 14em;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0 1.5em;
+list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-weight: 600;
+}
+li a :hover {
+border-bottom: 0.1em solid #fff;
+}
+.field-search {
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 0 0.3em;
+}
+.field-search input {
+border-radius: 1em;
+padding: 0.3 1em;
+border: 0.2em solid #fff;
+}
+.field-search img {
+    margin-top: 0.2em;
+cursor: pointer;
+background: #121111;
+border-radius: 0.3em;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+footer {
+    background-color: #b573a8;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+.socialicons  a{
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+/*Hover effects on Social media icons*/
+.socialicons a :hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicons a :hover i {
+    color: white;
+    transition: 0.5s;
+}
+.footerNav {
+    margin: 30px 0;
+}
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li  a{
+color: white;
+margin: 20px;
+text-decoration: none;
+font-size: 1.2em;
+opacity: 0.7;
+transition: 0.5s;
+}
+.footerNav ul li  a :hover{
+    opacity: 1;
+}
+.footerBottom {
+    background-color: rgb(20, 19, 19);
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p {
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
+}
+@media(max-weidth:700px) {
+    .footerNav ul {
+        flex-direction: column;
+    }
+    .footerNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+main {
+   min-height: 100vh; 
+   margin-bottom: -100px;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.button {
+   display: inline-block;
+    background: #050505;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.button a:hover{
+background: #f90404;
+}
+
+.homepage-container {
+    float: right;
+    border: 1px solid black;
+    background: linear-gradient(#f7f4f6,#b573a8);
+    background-position: top left;
+}
+
+.table {
+    border: 2px solid black;
+}
