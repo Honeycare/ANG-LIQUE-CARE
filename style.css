@@ -181,6 +181,61 @@ display: flex;
 justify-content: center;
 align-items:  center;
 flex-direction: column;
-background: url(imgs/blue.jpeg);
+    width: 100%;
+    background: url(imgs/bg2.jpeg);
 background-size: cover;
 }
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+
+.contact .content h2 {
+font-size: 36px;
+font-weight: 500; 
+color: #fff;
+
+}
+
+.contact .content p {
+    font-weight: 300; 
+    color: #fff;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contactform{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container2 .contactform {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .contactform .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container2 .contactform .box .icon{
+min-width: 60px;
+height: 60px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
